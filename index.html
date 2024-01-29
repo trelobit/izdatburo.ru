@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Издатбюро</title>
+    <style>
+        body {
+            background-color: #grey;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+        .button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Издатбюро</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#" role="button">Контакты</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Мы цифровое агенство</h2>
+                    <h3>Издатбюро</h3>
+                </hgroup>
+                <p>Мы работаем с авторами графических и текстовых произведений в эпоху поляризации некогда глобального рынка. Мы делаем доступными произведения зарубежных авторов для потребителей на Российском рынке и наоборот.</p>
+                <button class="button">Написать нам</button>
+            </section>
+        </div>
+    </main>
+    <footer class="container">
+        <small><a href="#">Политика конфиденциальности</a> • <a href="#">Условия использования</a></small>
+    </footer>
+</body>
+</html>
